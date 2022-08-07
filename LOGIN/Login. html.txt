@@ -1,0 +1,16 @@
+<html>
+<body>
+<form method="post" action="">
+NAME<input type="text" name="name">
+ID<input type="text" name="id">
+enter gender:-
+MALE<input type="radio" name="ch1">
+FEMALE<input type="radio" name="ch1">
+enter courses:-
+JAVA<input type="checkbox" name="ch2">
+SQL<input type="checkbox" name="ch2">
+PHP<input type="checkbox" name="ch2">
+C++<input type="checkbox" name="ch2">
+</form>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<?php
+$no=$_POST["input1"];
+$search=$_POST["search"];
+$print=strstr($no,$search);
+if($print==true)
+{
+	echo"$search";
+}
+?>

@@ -1,0 +1,81 @@
+<?php
+$n=$_POST["no"];
+$j=$n%10;
+$k=$n/10;
+$h=$k%10;
+$p=$k/10;
+$e=$p%10;
+$r=$p/10;
+$l=$r%10;	
+$f=1000*$l+100*$e+10*$h+$j;
+$y=array("thousand","hundered","ty","and");
+$t=array($l,$e,$h,$j);
+echo"$f <br>";
+for($i=0;$i<count($t);$i++)
+{	
+	switch($t[$i])
+	{
+		case'1':/*if($i=3)
+				{
+					echo"$y[$i]one";
+				}*/
+				echo"one$y[$i]";
+				break;
+		case'2':/*if($i=3)
+				{
+					echo"$y[$i]two";
+				}*/
+				echo"two$y[$i]";
+				break;
+		case'3':/*if($i=3)
+				{
+					echo"$y[$i]three";
+				}*/
+				echo"three$y[$i]";
+				break;
+		case'4':/*if($i=3)
+				{
+					echo"$y[$i]four";
+				}*/
+				echo"four$y[$i]";
+				break;
+		case'5':/*if($i=3)
+				{
+					echo"$y[$i]five";
+				}*/				
+				echo"five$y[$i]";
+				break;
+		case'6':/*if($i=3)
+				{
+					echo"$y[$i]six";
+				}*/
+				echo"six$y[$i]";
+				break;
+		case'7':/*if($i=3)
+				{
+					echo"$y[$i]seven";
+				}*/
+				echo"seven$y[$i]";
+				break;
+		case'8':/*if($i=3)
+				{
+					echo"$y[$i]eighty";
+				}*/
+				echo"eighty$y[$i]";
+				break;
+		case'9':/*if($i=3)
+				{
+					echo"$y[$i]nine";
+				}*/
+				echo"nine$y[$i]";
+				break;
+		case'0':/*if($i=3)
+				{
+					echo"$y[$i]";
+				}*/
+				echo"";
+				break;
+	}
+}
+//echo"$t";
+?>
